@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ceb5588a43.js" crossorigin="anonymous"></script>
     <title>TheEdgeFirm</title>
 
 
@@ -170,12 +171,51 @@ text-align: center;
 #second{
     background-color: #040404;
     padding: 70px;
-    height: 300px;
+    height: 500px;
     display: flex;
     align-items: center;
     overflow: hidden;
 }
 
+@media only screen and (max-width: 600px) {
+  #second{
+padding: 10px;
+flex-direction: column;
+height: 300px;
+  }
+#htext2{
+    font-size: 19px;
+}
+#paragraph2{
+    gap: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+       
+}
+#paragraph2 p{
+    font-size: 11px;
+        margin-top: 18px;
+        margin: 0px;
+    }
+
+}
+
+#services{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    width: 100%;
+}
+
+.service-boxes{
+    margin: 10px;
+    height: 450px;
+    width: 400px;
+    background-color: #8c8cc1;
+    border-radius: 10px;
+    padding: 10px;
+}
     </style>
 </head>
 <body>
@@ -234,6 +274,31 @@ text-align: center;
 </div>
 
 </div>
+
+<div id="services">
+
+<div class="service-boxes" id="career-plan">
+<h1>Career Plans</h1>
+<p>Career plans are strategic roadmaps that individuals create to guide their professional development and achieve their career goals</p>
+<a href="">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+
+
+<div class="service-boxes" id="business-plan">
+<h1>Business Plans</h1>
+<p>Consulting planning for modern businesses involves providing advice and guidance to companies on how…</p>
+<a href="">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+
+<div class="service-boxes" id="abroad-education">
+    <h1>Abroad Education</h1>
+    <p>Studying abroad offers a unique opportunity to expand your horizons, gain a global perspective, and immerse yourself in a new culture.</p>
+    <a href="">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+
+</div>
+
+
 </body>
 
 
