@@ -24,7 +24,7 @@
 
 
       <div id="intro">
-        <video autoplay loop muted src="3129957-uhd_3840_2160_25fps (1) (1).mp4" ></video>
+        <video id="introVideo"  autoplay loop muted src="3129957-uhd_3840_2160_25fps (1) (1).mp4" ></video>
 <h1 id="adv-h">Your Advice Partner</h1>
 <h1 id="ed-h">The Edge Firm: <br> First step Of Your Success</h1>
 <p>Drive digital transformation for your business. We offer cutting-edge tech training in AI, Data Science, and Web Development. We also provide expert consulting to optimize your website and craft winning business strategies.</p>
@@ -141,6 +141,38 @@
 
 
 
+
+
+
+
+
+
+
+<script>
+  function loadVideoFaster(videoId) {
+      const videoElement = document.getElementById(videoId);
+
+      // Preload essential video metadata (progressive download)
+      videoElement.preload = 'metadata';
+
+      // Leverage browser caching for repeated visits (optional)
+      if (localStorage.getItem(videoId + '-loaded')) {
+          videoElement.src = videoElement.dataset.src || videoElement.src; // Restore original source
+      } else {
+          videoElement.src = videoElement.dataset.src || videoElement.src; // Set source (avoid redundant setting)
+          localStorage.setItem(videoId + '-loaded', true); // Mark video as loaded
+      }
+
+      videoElement.addEventListener('loadeddata', function() {
+          // Any additional actions when video data is loaded
+      });
+  }
+
+  // Usage:
+  document.addEventListener('DOMContentLoaded', function() {
+      loadVideoFaster('introVideo'); // Assuming video element has ID 'introVideo'
+  });
+</script>
 
 
 </body>
