@@ -373,3 +373,43 @@ padding: 30px;
       display: none;
     }
 }
+
+
+
+
+
+
+
+
+
+
+#content-about{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#content-about h1{
+    color: white;
+    text-decoration: underline;
+}
+
+#content-about p{color: white;
+}
+
+
+#content-about2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#content-about2 h1{
+    color: white;
+    text-decoration: underline;
+}
+
+#content-about2 p{color: white;
+}
