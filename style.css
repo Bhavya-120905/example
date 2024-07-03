@@ -248,7 +248,6 @@ height: 300px;
      height: 400px;
        overflow: hidden;
        width: 300px;
-       border-style: solid;
        align-items: center;
        display: flex;
        flex-direction: column;
@@ -269,6 +268,55 @@ height: 300px;
    }
    
    .courses-links{
-   
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+   }
+
+   .company-links{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+   }
+
+   .placements-links{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+   }
+
+   .contact-links{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
    }
    
+   #f1{
+
+   }
+
+   #f2 h1{
+    text-decoration: underline;
+   }
+
+   #f3 h1{
+    text-decoration: underline;
+   }
+
+   #f4 h1{
+    text-decoration: underline;
+   }
+
+   #sm-btn{
+    font-size: 30px;
+   }
+   #sm{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   }
