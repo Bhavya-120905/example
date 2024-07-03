@@ -26,9 +26,7 @@ ul{
 body{
     background-color: black;
 }
-li{
 
-}
 
 li a{
     color: white;
@@ -215,7 +213,28 @@ height: 300px;
     background-color: #8c8cc1;
     border-radius: 10px;
     padding: 10px;
+    align-items: center;
+    display: grid;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+
+#services{
+    flex-direction: column;
+}
+
+.service-boxes{
+    width: auto;
+}
+
+
+}
+
+
+
+
     </style>
 </head>
 <body>
@@ -225,9 +244,9 @@ height: 300px;
         <ul>
           <img id="logo" src="Untitled design.png" alt="">
           <li><a href="About.html">About</a></li>
-          <li><a href="">Placements</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Courses</a></li>
+          <li><a href="Placements.html">Placements</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="Courses.html">Courses</a></li>
           <img id="option-btn" src="Untitled design (1).png" alt="">
         </ul>
       </div>
@@ -246,7 +265,7 @@ height: 300px;
 
 
 <div id="adv">
-    <p>TheEdgeFirm: Your one-stop shop for launching and growing your online business <br>- from website design courses to innovative ideas and job placement</p>
+    <p id="aaa">TheEdgeFirm: Your one-stop shop for launching and growing your online business <br>- from website design courses to innovative ideas and job placement</p>
 <img src="https://theedgefirm.com/wp-content/themes/blockscape/assets/images/treva.svg" alt="">
 <img src="https://theedgefirm.com/wp-content/themes/blockscape/assets/images/nirastate.svg" alt="">
 <img src="https://theedgefirm.com/wp-content/themes/blockscape/assets/images/circle.svg" alt="">
