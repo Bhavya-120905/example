@@ -459,7 +459,6 @@ padding: 5px;
 
 #placement-container1{
     display: flex;
-    background-color: #00a9e4;
     justify-content: space-evenly;
     align-items: center;
     padding: 40px;
@@ -491,7 +490,7 @@ border-radius: 12px;
 
 
 #placement-container2{
-    background-color: #8c8cc1;
+    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -542,7 +541,7 @@ gap: 50px;
 }
 
     #placement-container2{
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 50px;
     }
 
@@ -557,3 +556,13 @@ gap: 50px;
 
 #pcontainer2-right h1{    margin-bottom: 15px;}
 
+#pcontainer1-left h1{color: white; text-decoration: underline;}
+#pcontainer1-left h2{color: white;}
+#pcontainer1-left p{color: white;}
+#pcontainer1-left h3{color: white;}
+#pcontainer1-left ul li{color: white;}
+
+#pcontainer2-right h1{color: white; text-decoration: underline;}
+#pcontainer2-right h2{color: white;}
+#pcontainer2-right p{color: white;}
+#pcontainer2-right ul li{color: white;}
