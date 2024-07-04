@@ -459,4 +459,8 @@ padding: 5px;
     #container-about{
         flex-direction: column;
     }
+
+    #about-form{
+        border-style: none;
+    }
 }
