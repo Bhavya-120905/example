@@ -45,6 +45,23 @@ li a:hover{
   }
 }
 
+#courses{
+    color: white;
+    padding: 10px;
+    background-color: #00000099;
+    border-radius: 30px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+#courses:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.71);
+    border-style: none;
+    color: black;
+}
+
 
 #logo{height: 100px;
 float: left;
@@ -185,8 +202,10 @@ float: left;
 
 @media only screen and (max-width: 600px) {
 
-#bbb{
-
+#courses{
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px;
 }
 
 
