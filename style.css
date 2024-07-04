@@ -463,4 +463,12 @@ padding: 5px;
     #about-form{
         border-style: none;
     }
+
+    #content-about p{
+text-align: left;
+    }
+
+    #content-about2 p{
+text-align: left;
+    }
 }
