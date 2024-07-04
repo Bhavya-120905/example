@@ -1,7 +1,7 @@
 *{margin: 0;padding: 0;box-sizing: border-box;}
 html,body{height: 100%; width: 100%;}
 
-ul{
+#container ul{
     display: flex;
     list-style: none;
     
@@ -456,6 +456,29 @@ padding: 5px;
 
 }
 
+
+#placement-container1{
+
+    background-color: #00a9e4;
+}
+
+
+#pcontainer1-left{
+
+    
+}
+#pcontainer1-right{}
+
+
+#placementlist{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
     #container-about{
         flex-direction: column;
@@ -473,3 +496,6 @@ text-align: left;
 text-align: left;
     }
 }
+
+
+
