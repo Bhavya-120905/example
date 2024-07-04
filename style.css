@@ -271,6 +271,7 @@ padding: 30px;
      padding: 50px;
      justify-content: space-evenly;
      display: flex;
+     flex-wrap: wrap;
      gap: 10px;
    
    }
