@@ -8,7 +8,17 @@ logoImage.addEventListener("click", function() {
 });
 
 
+const coursesLink = document.getElementById('courses');
+const popup = document.getElementById('popup');
+const closeButton = document.getElementById('close-popup');
 
+coursesLink.addEventListener('click', () => {
+  popup.style.display = 'block';
+});
+
+closeButton.addEventListener('click', () => {
+  popup.style.display = 'none';
+});
 
 
   function loadVideoFaster(videoId) {

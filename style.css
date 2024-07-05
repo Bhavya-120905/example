@@ -14,7 +14,7 @@ body{
 }
 
 
-li a{
+#nav li a{
     color: white;
     padding: 10px;
     background-color: #00000099;
@@ -54,6 +54,7 @@ li a:hover{
     border-style: solid;
     border-width: 2px;
     border-color: white;
+    
 }
 #courses:hover{
     cursor: pointer;
@@ -62,9 +63,23 @@ li a:hover{
     color: black;
 }
 
-#courses i{
-    
+#popup{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(230, 0, 0); /* 0.5 opacity */
+  display: none; /* Initially hidden */
+  z-index: 2;
 }
+
+#close-popup {
+    /* Style your close button here */
+    padding: 10px;
+    background-color: #00e238;
+    cursor: pointer;
+  }
 
 #logo{height: 100px;
 float: left;
@@ -206,9 +221,16 @@ float: left;
 @media only screen and (max-width: 600px) {
 
 #courses{
-    padding: 5px;
-    margin: 5px;
+    color: white;
+    padding: 10px;
+    background-color: #00000099;
+    border-radius: 30px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
     font-size: 12px;
+    
 }
 
 
