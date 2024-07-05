@@ -25,7 +25,7 @@ body{
     border-color: white;
 }
 
-li a:hover{
+#nav li a:hover{
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.71);
     border-style: none;
@@ -45,23 +45,8 @@ li a:hover{
   }
 }
 
-#courses{
-    color: white;
-    padding: 10px;
-    background-color: #00000099;
-    border-radius: 30px;
-    text-decoration: none;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    
-}
-#courses:hover{
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.71);
-    border-style: none;
-    color: black;
-}
+
+
 
 #popup{
     position: fixed;
@@ -81,7 +66,7 @@ li a:hover{
     cursor: pointer;
   }
 
-#logo{height: 70%;
+#logo{height: 80px;
 float: left;
 }
 
@@ -220,18 +205,7 @@ float: left;
 
 @media only screen and (max-width: 600px) {
 
-#courses{
-    color: white;
-    padding: 6px;
-    background-color: #00000099;
-    border-radius: 30px;
-    text-decoration: none;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    font-size: 12px;
-    
-}
+
 
 
   #second{
@@ -400,7 +374,7 @@ padding: 30px;
 
    @media only screen and (max-width: 600px) {
   
-    li a{
+    #nav li a{
       padding: 5px;
       margin: 5px;
       font-size: 12px;
