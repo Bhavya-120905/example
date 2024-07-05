@@ -16,7 +16,7 @@ body{
 
 #nav li a{
     color: white;
-    padding: 10px;
+    padding: 6px;
     background-color: #00000099;
     border-radius: 30px;
     text-decoration: none;
@@ -81,7 +81,7 @@ li a:hover{
     cursor: pointer;
   }
 
-#logo{height: 100px;
+#logo{height: 70%;
 float: left;
 }
 
@@ -222,7 +222,7 @@ float: left;
 
 #courses{
     color: white;
-    padding: 10px;
+    padding: 6px;
     background-color: #00000099;
     border-radius: 30px;
     text-decoration: none;
@@ -411,7 +411,7 @@ padding: 30px;
     }
     
     #logo{
-    height: 60px;
+    
     }
     
     #option-btn{
