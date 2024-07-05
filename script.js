@@ -8,7 +8,7 @@ logoImage.addEventListener("click", function() {
 });
 
 
-const coursesLink = document.getElementById('courses');
+const coursesLink = document.getElementById('jump-courses');
 const popup = document.getElementById('popup');
 const closeButton = document.getElementById('close-popup');
 
