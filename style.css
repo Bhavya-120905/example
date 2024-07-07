@@ -200,7 +200,7 @@ float: left;
 }
 
 #second{
-    background-image: linear-gradient(45deg, #303584, #040308, #4000ff, transparent);
+    background-image: linear-gradient(45deg, #000000, #040308, #35313f, transparent);
     display: flex;
     background-color: #040404;
     padding: 70px;
@@ -475,6 +475,7 @@ padding: 5px;
 }
 
 #container-about{
+  background-image:        linear-gradient(45deg, #210925, #090632, #0c0e29, transparent);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -488,6 +489,7 @@ padding: 5px;
 
 
 #placement-container1{
+    background-image:linear-gradient(45deg, #000000, #12063f);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -520,7 +522,7 @@ border-radius: 12px;
 
 
 #placement-container2{
-    
+    background-image:linear-gradient(45deg,#12063f, #000000); 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
