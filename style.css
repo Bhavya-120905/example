@@ -62,15 +62,37 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(230, 0, 0); /* 0.5 opacity */
+  background-image: linear-gradient(45deg, #3f1f4b, #0e0e34, #6a4f94);
   display: none; /* Initially hidden */
   z-index: 2;
 }
+#pop-content{
+    gap: 30px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#pop-content h1{color: white;}
+#nnnn li a{
+    text-decoration: none;
+    color: white;
+}
+#pop-content ul{list-style: none;}
+
+#nnnn li{
+    margin: 10px;
+}
+
 
 #close-popup {
     /* Style your close button here */
     padding: 10px;
-    background-color: #00e238;
+    background-color: #68766c;
     cursor: pointer;
   }
 
