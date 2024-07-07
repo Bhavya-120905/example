@@ -627,3 +627,33 @@ gap: 50px;
 
 
 
+
+
+#adv-h {
+    opacity: 0; /* Initially hide the h1 */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for opacity */
+  }
+  
+  #adv-h.pop {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: opacity 0.5s ease-in-out, transform 0.2s ease-in-out; /* Adjusted transitions */
+  }
+
+
+
+
+
+
+ #intro-text {
+  opacity: 1; /* Ensure paragraph is visible */
+  
+  width: 100%; /* Span the full width of its container */
+  transform: translateX(100%); /* Initially positioned off-screen to the right (adjust as needed) */
+  transition: transform 0.8s ease-in-out; /* Smooth transition for sliding effect */
+}
+
+
+ #intro:hover #intro-text {
+   transform: translateX(0); /* Slide left on hover (not needed) */
+ }

@@ -68,3 +68,58 @@ function animateBalls() {
 }
 
 animateBalls(); // Start animation
+
+
+
+
+
+
+const edhElement = document.getElementById('ed-h'); // Select the h1 with id "ed-h"
+
+window.addEventListener('load', () => {
+  // Animate opacity from 0 to 1 in 4 seconds
+  const duration = 6000; // Adjust duration in milliseconds (1000ms = 1 second)
+
+  let currentOpacity = 0;
+  const animationInterval = setInterval(() => {
+    currentOpacity += 0.025; // Adjust increment for smoother transition (smaller increments for finer control)
+    edhElement.style.opacity = Math.min(currentOpacity, 1); // Ensure opacity doesn't exceed 1
+
+    if (currentOpacity >= 1) {
+      clearInterval(animationInterval); // Stop animation when opacity reaches 1
+    }
+  }, duration / 100); // Execute animation frames every (duration / 100) milliseconds
+});
+
+
+
+
+
+
+
+window.addEventListener('load', () => {
+  const advhElement = document.getElementById('adv-h');
+  setTimeout(() => {
+    advhElement.classList.add('pop'); // Add pop class with delay
+  }, 300); // Adjust delay in milliseconds
+});
+
+
+
+
+
+const introTextElement = document.getElementById('intro-text');
+
+window.addEventListener('load', () => {
+  // Delay animation for 3 seconds
+  setTimeout(() => {
+    introTextElement.style.opacity = 1; // Make it visible (optional)
+    introTextElement.classList.add('slide-in'); // Trigger slide animation
+  }, 3000); // Delay in milliseconds (3 seconds)
+});
+
+// Remove unnecessary event listeners (optional)
+// You might need to adjust selector based on your actual structure
+const introElement = document.getElementById('intro');
+introElement.removeEventListener('mousemove'); // Example
+
