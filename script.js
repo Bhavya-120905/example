@@ -44,3 +44,27 @@ closeButton.addEventListener('click', () => {
   document.addEventListener('DOMContentLoaded', function() {
       loadVideoFaster('introVideo'); // Assuming video element has ID 'introVideo'
   });
+
+
+
+
+
+
+  
+
+  const ballContainer = document.getElementById('ball-container');
+
+function createBall() {
+  const ball = document.createElement('div');
+  ball.classList.add('ball');
+  ball.style.left = Math.random() * window.innerWidth + 'px';
+  ball.style.top = Math.random() * window.innerHeight + 'px';
+  ballContainer.appendChild(ball);
+}
+
+function animateBalls() {
+  createBall(); // Create a new ball on each animation call
+  requestAnimationFrame(animateBalls); // Schedule another animation frame
+}
+
+animateBalls(); // Start animation

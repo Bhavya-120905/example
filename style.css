@@ -14,7 +14,10 @@ body{
     background-color: black;
 }
 
-
+#nav{
+    display: flex;
+    flex-wrap: wrap;
+}
 #nav li a{
     color: white;
     padding: 6px;
@@ -93,9 +96,10 @@ float: left;
     overflow: hidden;
     position: relative; /* Important for video positioning */
     box-shadow: 0px 5px 23px #8c8cc1;
-    background-image: linear-gradient(to right, #0b0010, #220479, #331447, #0d0810);
+    background-image: linear-gradient(to right, #0b0010, #220479, #000000, #0d0810);
     display: flex;
     align-items: center;
+    padding: 15px;
 }
 #option-btn{
     height: 30px;
@@ -157,7 +161,7 @@ float: left;
     width: 100%;
     text-align: center;
     padding: 25px;
-
+    background-image: repeating-linear-gradient(45deg, #0d0d1e, transparent 100px);
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -175,7 +179,7 @@ float: left;
     border-radius: 12px;
     border-style: solid;
     border-color: #bab1ec;
-
+    background-image: repeating-linear-gradient(45deg, #3c2354, transparent 100px);
     padding: 39px;
     display: flex;
     flex-direction: column;
@@ -196,9 +200,10 @@ float: left;
 }
 
 #second{
+    background-image: linear-gradient(45deg, #303584, #040308, #4000ff, transparent);
+    display: flex;
     background-color: #040404;
     padding: 70px;
-   
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -396,7 +401,7 @@ padding: 30px;
     }
     
     #option-btn{
-      display: none;
+    height: 23px;
     }
 }
 
@@ -591,3 +596,10 @@ gap: 50px;
 #pcontainer2-right h2{color: white;}
 #pcontainer2-right p{color: white;}
 #pcontainer2-right ul li{color: white;}
+
+
+
+
+
+
+
