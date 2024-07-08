@@ -644,16 +644,3 @@ gap: 50px;
 
 
 
-
- #intro-text {
-  opacity: 1; /* Ensure paragraph is visible */
-  
-  width: 100%; /* Span the full width of its container */
-  transform: translateX(100%); /* Initially positioned off-screen to the right (adjust as needed) */
-  transition: transform 0.8s ease-in-out; /* Smooth transition for sliding effect */
-}
-
-
- #intro:hover #intro-text {
-   transform: translateX(0); /* Slide left on hover (not needed) */
- }

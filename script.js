@@ -108,18 +108,5 @@ window.addEventListener('load', () => {
 
 
 
-const introTextElement = document.getElementById('intro-text');
-
-window.addEventListener('load', () => {
-  // Delay animation for 3 seconds
-  setTimeout(() => {
-    introTextElement.style.opacity = 1; // Make it visible (optional)
-    introTextElement.classList.add('slide-in'); // Trigger slide animation
-  }, 3000); // Delay in milliseconds (3 seconds)
-});
-
-// Remove unnecessary event listeners (optional)
-// You might need to adjust selector based on your actual structure
-const introElement = document.getElementById('intro');
-introElement.removeEventListener('mousemove'); // Example
+const secondpageheading = document.getElementById('htext2');
 
